@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+:root{
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-dark-gray: #191919;
+    --color-light-blue: #CCCCFF;
+    --color-dark-blue: #0000FF;
+    --color-background-gray: #E9E9E9;
+    --color-input-transparency: rgba(47, 47, 47, 0.5);
+
+    --font: 'Inter';
+    --headline1-big: 64px;
+    --headline1-medium: 48px;
+    --headline1-weight: 700;
+
+    --headline2-big: 40px;
+    --headline2-medium: 33px;
+    --headline2-normal: 26px;
+
+    --paragraph-big:24px;
+    --paragraph-normal: 20px;
+    --paragraph-medium: 16px;
+    --paragraph-small: 12px;
+    --paragraph-tiny: 10px;
+
+    --button-text: 28px;
+    --button-medium:24px;
+    --button-small-second:18px;
+    --button-text-small: 15px;
+
+    --header-links: 24px;
+    --footer-links1: 16px;
+    --footer-links2: 14px;
+
+}
