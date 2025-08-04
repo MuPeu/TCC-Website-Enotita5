@@ -17,27 +17,21 @@ body{
     --color-input-transparency: rgba(47, 47, 47, 0.5);
 
     --font: 'Inter';
-    --headline1-big: 64px;
-    --headline1-medium: 48px;
-    --headline1-weight: 700;
+    --headline1-normal: 56px;
+    --headline1-small: 26px;
 
-    --headline2-big: 40px;
-    --headline2-medium: 33px;
-    --headline2-normal: 26px;
+    --headline2-normal: 36px;
+    --headline2-small: 23px;
 
-    --paragraph-big:24px;
-    --paragraph-normal: 20px;
-    --paragraph-medium: 16px;
-    --paragraph-small: 12px;
-    --paragraph-tiny: 10px;
+    --headline3-normal: 30px;
 
-    --button-text: 28px;
-    --button-medium:24px;
-    --button-small-second:18px;
-    --button-text-small: 15px;
+    --headline4-normal: 25px;
 
-    --header-links: 24px;
-    --footer-links1: 16px;
-    --footer-links2: 14px;
+    --paragraph-normal: 25px;
 
+    --button-text: 20px;
+
+    --header-links: 36px;
+    --footer-links1: 23px;
+    
 }
