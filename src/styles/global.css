@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+:root{
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-dark-gray: #191919;
+    --color-light-blue: #CCCCFF;
+    --color-dark-blue: #0000FF;
+    --color-background-gray: #E9E9E9;
+    --color-input-transparency: rgba(47, 47, 47, 0.5);
+
+    --font: 'Inter';
+    --headline1-normal: 56px;
+    --headline1-small: 26px;
+
+    --headline2-normal: 36px;
+    --headline2-small: 23px;
+
+    --headline3-normal: 30px;
+
+    --headline4-normal: 25px;
+
+    --paragraph-normal: 25px;
+
+    --button-text: 20px;
+
+    --header-links: 36px;
+    --footer-links1: 23px;
+    
+}
