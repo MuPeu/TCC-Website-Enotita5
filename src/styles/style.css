@@ -1,5 +1,42 @@
 @import url(./global.css);
 
-body{
-    
+*{
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-background-gray);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: var(--color-light-blue);
+    font-size: var(--header-links);
+    gap: 32px;
+}
+
+nav > ul{
+    display: flex;
+    gap: 32px;
+}
+
+nav > button{
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 100px;;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    font-family: var(--font-medium);
+    font-size: var(--button-big-text);
+}
+
+header{
+    display: flex;
+    align-items: center;
 }

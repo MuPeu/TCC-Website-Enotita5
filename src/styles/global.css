@@ -3,10 +3,38 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: "FiraCode-Light";
+    src: url("../assets/fonts/FiraCode/static/FiraCode-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
 @font-face {
     font-family: "FiraCode";
     src: url("../assets/fonts/FiraCode/static/FiraCode-Regular.ttf") format("truetype");
     font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraCode-Medium";
+    src: url("../assets/fonts/FiraCode/static/FiraCode-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraCode-SemiBold";
+    src: url("../assets/fonts/FiraCode/static/FiraCode-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraCode-Bold";
+    src: url("../assets/fonts/FiraCode/static/FiraCode-Bold.ttf") format("truetype");
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -25,7 +53,12 @@ body {
     --color-background-gray: #E9E9E9;
     --color-input-transparency: rgba(47, 47, 47, 0.5);
 
-    --font: 'Inter';
+    --font-light: 'FiraCode-Light';
+    --font-regular: 'FiraCode';
+    --font-medium: 'FiraCode-Medium';
+    --font-semibold: 'FiraCode-SemiBold';
+    --font-bold: 'FiraCode-Bold';
+
     --headline1-normal: 56px;
     --headline1-small: 26px;
 
@@ -38,6 +71,7 @@ body {
 
     --paragraph-normal: 25px;
 
+    --button-big-text: 26px;
     --button-text: 20px;
 
     --header-links: 36px;
