@@ -52,6 +52,7 @@ body {
     --color-dark-blue: #0000FF;
     --color-background-gray: #E9E9E9;
     --color-input-transparency: rgba(47, 47, 47, 0.5);
+    --transparent: rgba(0, 0, 0, 0);
 
     --font-light: 'FiraCode-Light';
     --font-regular: 'FiraCode';
