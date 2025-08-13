@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
 @font-face{
     font-family: "FiraCode-Light";
     src: url("../assets/fonts/FiraCode/static/FiraCode-Light.ttf") format("truetype");
@@ -42,6 +43,10 @@ body {
     font-family: "FiraCode", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+=======
+body{
+
+>>>>>>> c57c4ce11d0c7a0ff32ad65e5ccc0b80da92a174
 }
 
 :root{
@@ -52,6 +57,7 @@ body {
     --color-dark-blue: #0000FF;
     --color-background-gray: #E9E9E9;
     --color-input-transparency: rgba(47, 47, 47, 0.5);
+<<<<<<< HEAD
     --transparent: rgba(0, 0, 0, 0);
 
     --font-light: 'FiraCode-Light';
@@ -60,6 +66,10 @@ body {
     --font-semibold: 'FiraCode-SemiBold';
     --font-bold: 'FiraCode-Bold';
 
+=======
+
+    --font: 'Inter';
+>>>>>>> c57c4ce11d0c7a0ff32ad65e5ccc0b80da92a174
     --headline1-normal: 56px;
     --headline1-small: 26px;
 
@@ -72,7 +82,10 @@ body {
 
     --paragraph-normal: 25px;
 
+<<<<<<< HEAD
     --button-big-text: 26px;
+=======
+>>>>>>> c57c4ce11d0c7a0ff32ad65e5ccc0b80da92a174
     --button-text: 20px;
 
     --header-links: 36px;
