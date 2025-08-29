@@ -49,7 +49,7 @@ header p{
     font-size: var(--paragraph-normal);
 }
 
-header button{
+button{
     display: flex;
     height: 50px;
     justify-content: center;
@@ -60,16 +60,38 @@ header button{
     font-size: var(--button-text);
 }
 
-header .btn-about_us{
+.header-buttons .btn-about_us{
     width: 168px;
     border: none;
     background: var(--color-dark-blue);
     color: var(--color-white);
 }
 
-header .btn-join_us{
+.header-buttons .btn-join_us{
     width: 216px;
     border: 2px solid var(--color-black);
     background: var(--transparent);
     color: var(--color-black);
+}
+
+.about-buttons .btn-about_us{
+    width: 168px;
+    border: 2px solid var(--color-black);
+    background: var(--transparent);
+    color: var(--color-black);
+}
+
+.about-buttons .btn-explore{
+    width: 128px;
+    border: none;
+    background: var(--transparent);
+    color: var(--color-black);
+    gap: 8px;
+}
+
+.team-profile > img{
+    width: 180px;
+    height: 180px;
+    aspect-ratio: 1/1;
+    border-radius: 300px;
 }
