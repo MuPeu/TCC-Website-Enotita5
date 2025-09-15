@@ -1,5 +1,13 @@
 @import url(./global.css);
 
+h1{
+    font-size: var(--headline1-normal);
+}
+
+p{
+    font-size: var(--paragraph-normal);
+}
+
 body {
     background-color: var(--color-background-gray);
 }
@@ -39,14 +47,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-header h1{
-    font-size: var(--headline1-normal);
-}
-
-header p{
-    font-size: var(--paragraph-normal);
+    background-color: var(--color-light-blue);
 }
 
 button{
@@ -60,6 +61,27 @@ button{
     font-size: var(--button-text);
 }
 
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-top: 80px;
+    padding-right: 64px;
+    padding-bottom: 80px;
+    padding-left: 64px;
+}
+
+.header-description{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.header-buttons{
+    display: flex;
+    gap: 16px;
+}
+
 .header-buttons .btn-about_us{
     width: 168px;
     border: none;
@@ -71,22 +93,58 @@ button{
     width: 216px;
     border: 2px solid var(--color-black);
     background: var(--transparent);
-    color: var(--color-black);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 120px;
+    padding-right: 64px;
+    padding-bottom: 120px;
+    padding-left: 64px; 
+}
+
+.about-buttons{
+    display: flex;
+    gap: 24px;
 }
 
 .about-buttons .btn-about_us{
     width: 168px;
     border: 2px solid var(--color-black);
     background: var(--transparent);
-    color: var(--color-black);
 }
 
 .about-buttons .btn-explore{
     width: 128px;
     border: none;
     background: var(--transparent);
-    color: var(--color-black);
     gap: 8px;
+}
+
+.mission-vision-values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 112px;
+    padding-right: 64px;
+    padding-bottom: 94px;
+    padding-left: 64px;
+    background-color: var(--color-light-blue);
+}
+
+.mission-content, .vision-content, .values-content{
+    display: flex;
+    flex-direction: column;
 }
 
 .team-profile > img{
