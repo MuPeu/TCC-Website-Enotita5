@@ -130,6 +130,13 @@ main{
     gap: 8px;
 }
 
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
 .mission-vision-values{
     display: flex;
     flex-direction: column;
@@ -140,16 +147,83 @@ main{
     padding-bottom: 94px;
     padding-left: 64px;
     background-color: var(--color-light-blue);
+    gap: 75px;
 }
 
-.mission-content, .vision-content, .values-content{
+.mvv-content{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    width: 1600px;
+    text-align: center;
+}
+
+.mission-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 502px;
+    gap: 24px;
 }
 
-.team-profile > img{
+.vision-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 502px;
+    gap: 24px;
+}
+
+.values-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 502px;
+    gap: 24px;
+}
+
+.mission-content > img , .vision-content > img , .values-content > img {
+    width: 55px;
+    height: 55px;
+}
+
+.text-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 112px;
+    padding-bottom: 94px;
+    gap: 48px;
+}
+
+.team-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-profile > img {
     width: 180px;
     height: 180px;
     aspect-ratio: 1/1;
     border-radius: 300px;
+}
+
+.profile-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.profile-socials > img {
+    width: 30px;
+    height: 30px;
 }
