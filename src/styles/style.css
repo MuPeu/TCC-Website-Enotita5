@@ -2,14 +2,25 @@
 
 h1{
     font-size: var(--headline1-normal);
+    color: var(--color-dark-gray);
+}
+
+h2{
+    font-size: var(--headline2-small);
+}
+
+h3{
+ font-size: var(--headline3-normal);
 }
 
 p{
     font-size: var(--paragraph-normal);
+    color: var(--color-dark-gray);
 }
 
 a{
     font-size: var(--footer-links1);
+    color: var(--color-dark-gray);
 }
 
 body {
@@ -162,6 +173,10 @@ main{
     text-align: center;
 }
 
+.mvv-content h2{
+    font-size: var(--headline2-normal);
+}
+
 .mission-content {
     display: flex;
     flex-direction: column;
@@ -252,6 +267,10 @@ team {
     gap: 10px;
 }
 
+.text-card h3{
+    text-align: center;
+}
+
 .profile-socials {
     display: flex;
     flex-direction: row;
@@ -276,14 +295,25 @@ gallery{
 footer{
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .credits{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .credits > p{
     font-size: var(--footer-links1);
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
