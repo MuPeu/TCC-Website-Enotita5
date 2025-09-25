@@ -157,23 +157,43 @@
     <footer>
         <div class="footer-section">
             <div class="footer-column1">
-
+                <div class="top-content">
+                    <img src="" alt="Logo">
+                    <h1>Fale Conosco</h1>
+                </div>
+                <p>Av. Eusébio Matoso, 1350 - Pinheiros, Saõ Paulo - SP</p>
+                <p>(11) 99931-1285</p>
+                <p>enotita05@gmail.com</p>
+                <div class="social-links">
+                    <img src="src/assets/imgs/icon-Facebook.png" alt="Icone Facebook">
+                    <img src="src/assets/imgs/icon-Instagram.png" alt="Icone Instagram">
+                    <img src="src/assets/imgs/icon-X.png" alt="Icone X (Twitter)">
+                    <img src="src/assets/imgs/icon-LinkedIn.png" alt="Icone LinkedIn">
+                    <img src="src/assets/imgs/icon-Youtube.png" alt="Icone Youtube">
+                </div>
             </div>
             <div class="footer-column2">
-                <div class="name">
+                <div class="input-name">
                     <label for="labelInput" class="labelInput">Nome Completo</label>
-                    <input type="text" name="name" id="name" placeholder="Nome" required>
-                    <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" required>
+                    <div class="input-content-name">
+                        <input type="text" name="name" class="name" placeholder="Nome" required>
+                        <input type="text" name="lastname" class="lastname" placeholder="Sobrenome" required>
+                    </div>
                 </div>
-                <div class="name">
-                    <label for="labelInput" class="labelInput">Nome Completo</label>
-                    <input type="text" name="name" id="name" placeholder="Nome" required>
-                    <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" required>
+                <div class="input-email">
+                    <label for="labelInput" class="labelInput">Email</label>
+                    <input type="email" name="email" class="email" placeholder="Digite seu email" required>
                 </div>
-                <div class="name">
-                    <label for="labelInput" class="labelInput">Nome Completo</label>
-                    <input type="text" name="name" id="name" placeholder="Nome" required>
-                    <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" required>
+                <div class="input-telefone">
+                    <label for="labelInput" class="labelInput">Telefone</label>
+                    <input type="tel" name="phone" class="phone" pattern="^\(\d{2}\)\s\d{5}-\d{4}$" placeholder="Ex: (11) 99999-9999" required>
+                </div>
+                <div class="input-menssage">
+                    <label for="labelInput" class="labelInput">Menssagem</label>
+                    <input type="text" name="menssage" class="menssage" placeholder="Digite aqui sua menssagem" required>
+                </div>
+                <div class="button-enviar">  
+                    <input type="submit" name="input-button" class="input-button" value="Enviar">
                 </div>
             </div>
         </div>
