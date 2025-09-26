@@ -29,7 +29,24 @@ input{
     border-radius: 20px;
     border: 2px solid var(--color-input-transparency);
     padding-left: 25px;
-    height: 40px;
+    height: 44px;
+}
+
+textarea {
+  font-size: var(--paragraph-normal);
+  color: var(--color-input-transparency);
+  background-color: var(--transparent);
+  border-radius: 20px;
+  border: 2px solid var(--color-input-transparency);
+  line-height: 1.2;
+  padding-left: 25px;
+  height: 44px;
+  min-height: 44px;
+  resize: none;
+  overflow: hidden;
+  transition: height 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 a{
@@ -310,6 +327,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+    gap: 32px;
 }
 
 .footer-section {
@@ -334,11 +352,13 @@ footer{
 }
 
 .footer-column2{
+    border-radius: 40px;
+    border: 2px solid var(--color-white);
     padding: 48px;
     gap: 30px;
 }
 
-.input-name{
+.input-name, .input-tel, .input-email, .input-message {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -351,11 +371,13 @@ footer{
 }
 
 .input-button{
+    width: 108px;
+    height: 50px;
     border: none;
     border-radius: 20px;
     background-color: var(--color-dark-blue);
     padding: 0;
-    color: white;
+    color: var(--color-white);
 }
 
 .credits{
