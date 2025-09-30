@@ -323,6 +323,19 @@ gallery{
     gap: 48px;
 }
 
+.gallery-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.gallery-content > img {
+    width: 30%;
+    border-radius: 20px;
+}
+
 footer{
     display: flex;
     flex-direction: column;
