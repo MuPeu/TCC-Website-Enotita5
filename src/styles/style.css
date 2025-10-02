@@ -2,7 +2,6 @@
 
 h1{
     font-size: var(--headline1-normal);
-    color: var(--color-dark-gray);
 }
 
 h2{
@@ -15,7 +14,6 @@ h3{
 
 p{
     font-size: var(--paragraph-normal);
-    color: var(--color-dark-gray);
 }
 
 label{
@@ -51,7 +49,6 @@ textarea {
 
 a{
     font-size: var(--footer-links1);
-    color: var(--color-dark-gray);
 }
 
 body {
@@ -140,8 +137,9 @@ button{
 
 .header-buttons .btn-join_us{
     width: 216px;
-    border: 2px solid var(--color-black);
+    border: 2px solid var(--color-white);
     background: var(--transparent);
+    color: var(--color-white);
 }
 
 main{
@@ -195,6 +193,7 @@ main{
     padding-right: 64px;
     padding-bottom: 94px;
     padding-left: 64px;
+    color: var(--color-white);
     background-color: var(--color-light-blue);
     gap: 75px;
 }
@@ -486,4 +485,8 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 24px;
+}
+
+.footer-links > a{
+    color: var(--color-dark-gray);
 }
