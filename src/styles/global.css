@@ -48,9 +48,9 @@ body {
     --color-white: #FFFFFF;
     --color-black: #000000;
     --color-dark-gray: #191919;
-    --color-light-blue: #CCCCFF;
-    --color-dark-blue: #0000FF;
-    --color-background-gray: #E9E9E9;
+    --color-light-blue: #395B9E;
+    --color-dark-blue: #2A467E;
+    --color-background-gray: #d8d8d8;
     --color-input-transparency: rgba(47, 47, 47, 0.5);
 
     --transparent: rgba(0, 0, 0, 0);

@@ -28,6 +28,8 @@ textarea.addEventListener('input', function () {
 
   let currentIndex = 0;
   let autoplay;
+  let slide;
+  let time;
 
   function updateCarousel() {
     slides.forEach(slide => slide.classList.remove('prev','center','next'));
@@ -52,13 +54,14 @@ textarea.addEventListener('input', function () {
     updateCarousel();
   }
 
-  function startAutoplay() {
-    autoplay = setInterval(nextSlide, 4000);
+  function startAutoplay(slide, time) {
+    autoplay = setInterval(slide, time);
   }
 
   function stopAutoplay() {
     clearInterval(autoplay);
     autoplay = null;
+    setTimeout(startAutoplay(nextSlide, 4000), 8000);
   }
 
   prevBtn.addEventListener('click', () => {
@@ -72,5 +75,5 @@ textarea.addEventListener('input', function () {
   });
 
   updateCarousel();
-  startAutoplay();
+  startAutoplay(nextSlide, 4000);
 })();
