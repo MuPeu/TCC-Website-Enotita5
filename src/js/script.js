@@ -77,3 +77,12 @@ textarea.addEventListener('input', function () {
   updateCarousel();
   startAutoplay(nextSlide, 4000);
 })();
+
+// --------- Menu Hambúrguer ---------
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
