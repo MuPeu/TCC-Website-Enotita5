@@ -346,7 +346,9 @@ team {
     align-items: center;
     justify-content: center;
     padding-top: 112px;
+    padding-right: 15px;
     padding-bottom: 94px;
+    padding-left: 15px;
     gap: 48px;
 }
 
@@ -402,6 +404,7 @@ team {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 10px;
 }
 
@@ -584,6 +587,13 @@ footer{
     padding-top: 48px;
     padding-left: 48px;
     gap: 32px;
+}
+
+@media (max-width: 1200px) {
+    .footer-column1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (max-width: 760px) {
