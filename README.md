@@ -55,17 +55,18 @@
       <p>Ative o GitHub Pages nas configurações do repositório (geralmente apontando para a branch <code>main</code>) para hospedar o site gratuitamente.</p>
     </section>
     <section style="margin-top:16px" class="card">
-      <h2>Conteúdo da Wiki</h2>
-      <ul>
-        <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki">Home da Wiki</a></li>
-        <li><a href="#">Estrutura de Pastas</a></li>
-        <li><a href="#">Design e Estilos (CSS)</a></li>
-        <li><a href="#">Comportamento (JS)</a></li>
-        <li><a href="#">Publicação / Deploy</a></li>
-        <li><a href="#">Contribuir</a></li>
-        <li><a href="#">Changelog</a></li>
-        <li><a href="#">Créditos</a></li>
-      </ul>
+        <h2>Conteúdo da Wiki</h2>
+        <ul>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki">Home da Wiki</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%F0%9F%93%81-Estrutura-de-Pastas">Estrutura de Pastas</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%F0%9F%8F%A2-Sobre-o-Projeto">Sobre o Projeto</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%F0%9F%A7%A9-Tecnologias-Utilizadas">Tecnologias Utilizadas</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%F0%9F%8E%A8-Design-e-Estilos-(CSS)">Design e Estilos (CSS)</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%E2%9A%99%EF%B8%8F-Comportamento-(JS)">Comportamento (JS)</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%F0%9F%9A%80-Publica%C3%A7%C3%A3o-(Deploy)">Publicação / Deploy</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%F0%9F%93%9D-Changelog">Changelog</a></li>
+            <li><a href="https://github.com/MuPeu/TCC-Website-Enotita5/wiki/%E2%9C%A8-Cr%C3%A9ditos">Créditos</a></li>
+        </ul>
     </section>
     <footer>
       <p>Gerado automaticamente — copie os arquivos HTML para o repositório. Se quiser, eu converto isso em README.md (Markdown) também.</p>
