@@ -248,6 +248,12 @@ header{
     gap: 16px;
 }
 
+@media (max-width: 430px) {
+    .header-buttons{
+        flex-direction: column;
+    }
+}
+
 .header-buttons .btn-about_us{
     width: 168px;
     border: none;
@@ -342,6 +348,13 @@ main{
 
     .img-ilustrativa{
         width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-section{
+        padding-top: 120px;
+        padding-right: 20px;
     }
 }
 
