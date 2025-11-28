@@ -213,7 +213,7 @@ header{
 }
 
 @media (max-width: 760px) {
-    .header-img{
+    .header-img img{
         width: 200%;
     }
 }
